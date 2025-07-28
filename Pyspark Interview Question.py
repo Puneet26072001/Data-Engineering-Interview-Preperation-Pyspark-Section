@@ -76,7 +76,7 @@ df=spark.read.format('parquet')\
 
 # COMMAND ----------
 
-df=df.fillNa('Category':'N/A')
+df=df.fillna('Category':'N/A')
 
 # COMMAND ----------
 
