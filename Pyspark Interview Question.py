@@ -70,7 +70,7 @@ df=spark.read.format('parquet')\
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### QUESTION-3 : You are Working with a real-time data pipeline, and you notive missing values in your streaming data column-Category. How would you handle null or missing values in such a scenario?
+# MAGIC ### QUESTION-3 : You are Working with a real-time data pipeline, and you notice missing values in your streaming data column-Category. How would you handle null or missing values in such a scenario?
 # MAGIC
 # MAGIC #### df_stream=spark.readStream.schema("id INT,value STRING").csv("path/to/stream)
 
@@ -239,7 +239,7 @@ df.display()
 
 # COMMAND ----------
 
-df=spark.read.format('parquet').load('path') # This is the source ta
+df=spark.read.format('parquet').load('path') # This is the source table
 
 from delta.tables import DeltaTable
 
